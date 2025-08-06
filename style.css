@@ -1,1 +1,47 @@
+body {
+  font-family: sans-serif;
+  background-color: #eef2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.crud-menu {
+  margin-bottom: 20px;
+}
+.crud-menu button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+form input {
+  padding: 8px;
+  margin: 5px;
+  width: calc(100% - 20px);
+}
+form button {
+  padding: 8px 12px;
+  margin: 5px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.table th {
+  background: #f0f0f0;
+}
 
