@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <title>CRUD Web App</title>
+  <link rel="stylesheet" href="style.css">
+  <?!= include('CSS') ?>
+</head>
+<body>
+  <div class="container">
+    <h1>Simple CRUD via Apps Script API</h1>
+    <div class="crud-menu">
+      <button onclick="fetchData()">Read All</button>
+      <button onclick="showCreate()">Create</button>
+    </div>
+    <div id="form-area"></div>
+    <div id="result-area"></div>
+  </div>
+  <?!= include('JS') ?>
+</body>
+</html>
